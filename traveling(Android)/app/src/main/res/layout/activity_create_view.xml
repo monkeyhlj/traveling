@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateView">
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginTop="16dp"
+        android:onClick="fun"
+        android:text="查询"
+        app:layout_constraintEnd_toStartOf="@+id/getData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="96dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:onClick="fun"
+        android:text="增加"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getData"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginTop="16dp"
+        android:onClick="fun"
+        android:text="获取数据"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="请输入需要获取的索引"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

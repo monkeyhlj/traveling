@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.traveling">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.Userlogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.UserRegist">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.Search" />
+        <activity android:name=".login.Backstage" />
+        <activity android:name=".login.Usersee" />
+        <activity android:name=".login.Menumanage" />
+        <activity android:name=".login.SelectInfo" />
+        <activity android:name=".login.QueryInfoByid" />
+        <activity android:name=".login.AddInfo" />
+        <activity android:name=".login.UpdateInfoOne" />
+        <activity android:name=".login.DeleteInfo" />
+        <activity android:name=".login.Usermanage" />
+        <activity android:name=".login.SelectUser" />
+        <activity android:name=".login.QueryUser" />
+        <activity android:name=".login.AddUser" />
+        <activity android:name=".login.UpdateUser" />
+        <activity android:name=".login.Adminmanage" />
+        <activity android:name=".login.SelectAdmin" />
+        <activity android:name=".login.UpdateAdmin" />
+        <activity android:name=".login.DeleteUser" />
+        <activity android:name=".login.QueryAdmin" />
+        <activity android:name=".login.AddAdmin" />
+        <activity android:name=".login.DeleteAdmin"></activity>
+    </application>
+
+</manifest>

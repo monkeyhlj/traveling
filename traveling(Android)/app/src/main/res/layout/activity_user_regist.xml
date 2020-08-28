@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".login.UserRegist">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="540px"
+            android:layout_height="300px"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110px"
+            app:srcCompat="@drawable/food" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="600px"
+            android:layout_height="120px"
+            android:layout_marginLeft="85px"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入用户名" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="600px"
+            android:layout_height="120px"
+            android:layout_marginLeft="85px"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入密码" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30px"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:background="@color/button"
+            android:textColor="@color/white"
+            android:text="用户注册"
+            android:onClick="userreg"/>
+
+    </LinearLayout>
+
+</LinearLayout>

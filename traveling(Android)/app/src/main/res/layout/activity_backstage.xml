@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".login.Backstage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="180px" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="用户管理"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20px" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="管理员管理"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20px" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="菜单管理"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20px" />
+
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="返回前页"
+        android:onClick="fun"/>
+
+</LinearLayout>

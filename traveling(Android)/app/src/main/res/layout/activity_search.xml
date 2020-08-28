@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".login.Search">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="660px"
+            android:layout_height="360px"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60px"
+            app:srcCompat="@drawable/food" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:text="" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70px"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入地点"
+            />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="180px"
+            android:layout_height="75px"
+            android:background="@color/button"
+            android:textColor="@color/white"
+            android:text="搜索"
+            android:onClick="sousuo"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="" />
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="324dp"
+            android:layout_height="202dp"
+            app:srcCompat="@drawable/a" />
+    </LinearLayout>
+    -->
+
+
+</LinearLayout>

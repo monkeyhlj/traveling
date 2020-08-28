@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.Usermanage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="175px" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="查看用户信息"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10px" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="查询用户信息"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10px" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="增加用户"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10px" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="修改用户信息"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10px" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="删除用户"
+        android:onClick="fun"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10px" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:text="返回前页"
+        android:onClick="fun"/>
+
+</LinearLayout>
